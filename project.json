@@ -1,0 +1,56 @@
+{
+  "description" : "Improved version of cybeerboy's Connecting Dots http://steamcommunity.com/sharedfiles/filedetails/?id=780627443\nCustomization options (speed, particle count, radius, etc.)\nSome optimizations for less CPU usage.",
+  "file" : "index.html",
+  "general" :
+  {
+    "properties" :
+    {
+      "connectionRadius" :
+      {
+        "max" : 500,
+        "min" : 0,
+        "text" : "Connection radius",
+        "type" : "slider",
+        "value" : 150
+      },
+      "particles" :
+      {
+        "max" : 500,
+        "min" : 10,
+        "text" : "Particles count",
+        "type" : "slider",
+        "value" : 200
+      },
+      "radius" :
+      {
+        "max" : 100,
+        "min" : 5,
+        "text" : "Particles radius",
+        "type" : "slider",
+        "value" : 10
+      },
+      "schemecolor" :
+      {
+        "order" : 0,
+        "text" : "Scheme color",
+        "type" : "color",
+        "value" : "0 0.09019607843137255 0.12156862745098039"
+      },
+      "speed" :
+      {
+        "max" : 100,
+        "min" : 0,
+        "text" : "Speed",
+        "type" : "slider",
+        "value" : 10
+      }
+    }
+  },
+  "monetization" : false,
+  "preview" : "preview.jpg",
+  "tags" : [ "Abstract" ],
+  "title" : "Connecting Dots v2",
+  "type" : "web",
+  "visibility" : "public",
+  "workshopid" : 856978259
+}
